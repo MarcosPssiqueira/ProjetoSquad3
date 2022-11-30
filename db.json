@@ -1,0 +1,97 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Hambúrguer",
+        "descricao": "Pão, bife de hambúrguer alcatra 90g, molhos  e batata.",
+        "preco": 8.5,
+        "categoria_id": 1
+      },
+      {
+        "nome": "X-tudo",
+        "descricao": "Pão, bife de hambúrguer 90g, 3 fatias de queijo elementar, salada, batata palha e molhos.",
+        "preco": 18.00,
+        "categoria_id": 1,
+        "id": 2
+      },
+      {
+        "id": 3,
+        "nome": "Batata Canoa",
+        "descricao": "Batata Canoa e molhos",
+        "preco": 15.00,
+        "categoria_id": 1
+      },
+      {
+        "nome": "Batata Maluca",
+        "descricao": "Batata palito, bacon, calabresa, cheddar e catupiry",
+        "preco": 20.00,
+        "categoria_id": 1,
+        "id": 4
+        
+      }
+    ],
+    "Fucionarios": [
+      {
+        "id": 1,
+        "nome": "Priscila",
+        "descricao": "Mulher,auto declarada negra, 1.68 de altura",
+        "experiencia": "trabalhou como garconete na empresa come come",
+        "categoria_id": 1
+      },
+      {
+        "nome": "Kauanny",
+        "descricao": "Mulher, auto declarada branca, 1.63 de altura",
+        "experiencia": "nao possui experiencia",
+        "categoria_id": 1,
+        "id": 2
+      },
+  
+       {
+        "id": 1,
+        "nome": "Pamela",
+        "descricao": "Mulher,auto declarada parda, 1.70 de altura",
+        "experiencia": "trabalhou como chapeira na empresa Mc dennis",
+        "categoria_id": 3
+      },
+      {
+        "nome": "Rafikki",
+        "descricao": "Homem, auto declarado negro, 1.50 de altura",
+        "experiencia": "trabalhou como cozinheiro na empresa havivis",
+        "categoria_id": 4,
+        "id": 4
+      }
+    ],
+    "Estoque": [
+      {
+        "id": 1,
+        "nome": "Pao",
+        "descricao": "30kg de paes artesanais",
+        "preco": 320,
+        "categoria_id": 1
+      },
+      {
+        "id": 2,
+        "nome": "verduras e legumes",
+        "descricao": "alface,tomate, cebola, cheiro verde, batata inglesa e pimentao",
+        "preco": 103,
+        "categoria_id": 1
+        
+      },
+  
+      {  "id": 3,
+        "nome": "carne",
+        "descricao": "50kg de alcatra",
+        "preco": 415,
+        "categoria_id": 3
+      },
+      { 
+        
+        "nome": "temperos",
+        "descricao": " coloral, pimenta do reino, tempero pronto para carnes e sal",
+        "preco": 120,
+        "categoria_id": 4,
+        "id": 4
+      }
+    ]
+    
+  }
