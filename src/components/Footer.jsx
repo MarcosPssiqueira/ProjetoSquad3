@@ -1,7 +1,7 @@
-import instagram from "../images/instagram.png"
-import facebook from "../images/facebook.png"
-import twitter from "../images/twitter.png"
-import "./Footer.css"
+import instagram from "../images/instagram.png";
+import facebook from "../images/facebook.png";
+import twitter from "../images/twitter.png";
+import "./Footer.css";
 export default function Footer () {
 
     return (
@@ -16,4 +16,4 @@ export default function Footer () {
         </ul>
         </div>
     )
-}
+};

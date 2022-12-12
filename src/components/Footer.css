@@ -3,12 +3,12 @@
     height: 30px;
     border: none;
     box-shadow: none;
-}
+};
 .listaFooter {
     display:flex;
     gap: 10px;
 
-}
+};
 .Footer {
     display: flex;
     flex-direction: column;
@@ -17,4 +17,4 @@
     color: #9aa3ac;
     border-top: 1px solid var(--vermelhoClaro);
     padding: 20px;
-}
+};
