@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import './Navbar.css';
+import './Navbar.css'
 
 import LogoMarca from "../images/logo1.png";
 
