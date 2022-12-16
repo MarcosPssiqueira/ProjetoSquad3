@@ -1,5 +1,12 @@
 .container {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 0 2rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+#LoadingGIF {
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

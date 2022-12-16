@@ -1,0 +1,111 @@
+.container-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap-edicao{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    gap: 30px;
+    height: 100%;
+}
+.botoes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.botoes button:nth-child(1){
+    background-color:rgba(0, 0, 0, 0.387);
+    border: 1px solid #f0be00;
+    border-radius: 16px;
+    padding: 10px 12%;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: white;
+    transition: .3s
+}
+.botoes button:nth-child(1):hover{
+    background-color: #f0be00;
+    color: black;
+    border: 1px solid black;
+}
+.wrap-edicao div form div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-modal {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-overlay {
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s;
+}
+
+.modal-content {
+    width: 700px;
+    height: 450px;
+    background-color: white;
+    color: white;
+    padding: 10px;
+    border-radius: 16px;
+    border: 3px solid black;
+    color: black;
+}
+
+.button-close {
+    display: flex;
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.387);
+    padding: 10px 12%;
+    border-radius: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    align-self: center;
+    transition: .3s;
+}
+
+.button-close:hover {
+    background-color: #B20710;
+    border: 1px solid white;
+}
+.btn-Editar{
+    border: none;
+    border-radius: 16px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    background-color: #c3e603;
+    padding: 10px 30px;
+    margin-bottom: 16px;
+    margin-right: 12px;
+}
+.btn-Excluir{
+    border: none;
+    border-radius: 16px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    background-color: #c3e603;
+    padding: 10px 30px;
+    margin-bottom: 16px;
+}

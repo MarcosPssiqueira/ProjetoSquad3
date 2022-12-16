@@ -1,0 +1,51 @@
+h2{
+    font-size: 3rem;
+}
+.wrapper-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-cadastro{
+    background-color:rgba(231, 0, 0, 0.76);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 460px;
+    width: 700px;
+    text-align: center;
+    border-radius: 16px;
+}
+.container-cadastro div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lista-cardapio{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 0;
+    background-color: antiquewhite;
+    color: black;
+    padding-inline: 30px;
+   
+}
+.btn-cadastrar{
+    margin-top: 12px;
+    border-radius: 8px;
+    border: 2px solid  black;
+    padding: 10px 20px;
+    background-color: #dab902
+}
+.itens-cardapio{
+    border-bottom: 1px solid black;
+}
+p{
+    color: black;
+    font-size: 1.4rem;
+}

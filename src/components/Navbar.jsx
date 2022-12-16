@@ -1,32 +1,30 @@
-import { Link } from "react-router-dom";
-
-import './Navbar.css'
-
-import LogoMarca from "../images/logo1.png";
+import { Link } from 'react-router-dom';
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className= "navbar">
+    <nav className="navbar">
         <h2>
-            <Link to={`/`}> Call of Burguer</Link>
+            <Link to={'/'}> <img className='logo' src="./img/icon1.png" /> </Link>
         </h2>
         <ul>
-            
             <li>
-                <Link to={`/menu`} className="new-btn"> Menu </Link>
+                <Link to={'/'}> CALL OF BURGUER</Link>
             </li>
             <li>
-                <Link to={`/new`}> Reviews </Link>
+                <Link to={'/cardapio'}> MENU</Link>
             </li>
+
             <li>
-                <Link to={`/quemsomos`}> Quem Somos?</Link>
+                <Link to={'/new'} className="new-btn">
+                    DEFINA SEU PEDIDO</Link>
             </li>
-            <li>
-                <Link to={`/trabalheconosco`}> Trabalhe Conosco</Link>
-            </li>
+
         </ul>
     </nav>
   )
-};
 
-export default Navbar;
+}
+
+
+export default Navbar
