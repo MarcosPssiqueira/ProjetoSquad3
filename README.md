@@ -3,7 +3,7 @@
 <h1 align="center">
     <a href="https://pt-br.reactjs.org/">🔗 React</a>
 </h1>
-<p align="center">🚀 Projeto em Grupo, Programadores Carioca em parceiria com Resilia / Senac Rio. </p>
+<p align="center">🚀 Projeto em Grupo, Programadores Carioca em parceria com Resilia / Senac Rio. </p>
 <h3 align="center">Criado por Kauane Cardoso, Marcos Paulo, Thiago Jaime, Beatrice Macruz e João Guilherme. from React3</h3>
 
 
