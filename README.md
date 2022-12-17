@@ -16,7 +16,7 @@ Este projeto tem como objetivo consumir uma Fake API criada por um dos membros d
 ## 👉  Clonar o repositório na sua máquina:
 
 ```sh
-$ git clone https://github.com/Yur1sz/ProjetoemGrupoModulo3.git
+$ git clone https://github.com/MarcosPssiqueira/ProjetoSquad3.git
 ```
 ## 👉 Dentro da pasta do projeto, instalar dependências:
 
