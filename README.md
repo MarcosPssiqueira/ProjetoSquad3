@@ -4,7 +4,7 @@
     <a href="https://pt-br.reactjs.org/">🔗 React</a>
 </h1>
 <p align="center">🚀 Projeto em Grupo, Programadores Carioca em parceria com Resilia / Senac Rio. </p>
-<h3 align="center">Criado por Kauane Cardoso, Marcos Paulo, Thiago Jaime, Beatrice Macruz e João Guilherme. from React3</h3>
+<h3 align="center">Criado por Kauane Cardoso, Marcos Paulo, Thiago Jaime, Beatrice Macruz e João Guilherme. </h3>
 
 
 Este projeto tem como objetivo consumir uma Fake API criada por um dos membros do SQUAD e utilizar 4 métodos HTTP (GET, POST, PUT, DELETE). A ideia do site é ter a experiência de um ADM, tendo todos os direitos liberados para manutenção da página e não exatamente uma página voltada para o cliente.
