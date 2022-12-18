@@ -19,36 +19,35 @@ export default function ListItems({nome, descricao, preco, id}){
       SetModalAberto(false);
     }
 
-  // Parte para editar o hambúrguer //
+  // Parte para editar o pedido//
 
   const [nomeBurguer, setNomeBurguer] = useState("")
   const [descricaoBurguer, setDescricaoBurguer] = useState("")
   const [precoBurguer, setPrecoBurguer] = useState("")
 
 
-
   const updateBurguer = async(e) => {
     e.preventDefault();
-    await blogFetch.put(`/hamburguer/${id}`,{
+    await blogFetch.put(`/produtos/${id}`,{
         nome: nomeBurguer,
         descricao: descricaoBurguer,
         preco: precoBurguer,
     })
 }
 
-  // Parte para excluir o hambúrguer //
+  // Parte para excluir o pedido //
 
   function deleteBurguer(id) {
     if (!confirm(`Deseja realmente excluir o pedido? "${nome}"?`)) {
     } else {
-      fetch(`https://json-server-oh2f.onrender.com/hamburguer/${id}`, {
+      fetch(`https://jsonserver-wher.onrender.com/produtos/${id}`, {
         method: "DELETE",
       }).then((result) => {
         result.json().then((resp) => {
           console.warn(resp);
         });
       });
-      alert(`Pedio "${nome}" deletado com sucesso! Recarregue a página.`);
+      alert(`Pedido "${nome}" deletado com sucesso! Recarregue a página.`);
     }
   }
   
@@ -61,8 +60,8 @@ export default function ListItems({nome, descricao, preco, id}){
           <p>Ingredientes: {descricao}</p>
           <p>Preço: R$ {preco}</p>
           <div className="container-modal">
-          <button className="btn-Editar" onClick={openModal}>Editar hambúrguer </button>
-          <button className="btn-Excluir" onClick={() => deleteBurguer(id)}>Excluir hambúrguer</button>
+          <button className="btn-Editar" onClick={openModal}>Editar pedido.. </button>
+          <button className="btn-Excluir" onClick={() => deleteBurguer(id)}>Excluir pedido.</button>
           <Modal
             isOpen={modalAberto}
             onRequestClose={closeModal}
@@ -75,23 +74,23 @@ export default function ListItems({nome, descricao, preco, id}){
                 <h2>Editar {nome}</h2>
                 <form>
                   <div>
-                    <label htmlFor="nome">Nome do hamburguer</label>
+                    <label htmlFor="nome"> Pedidos..</label>
                     <input
                       type="text"
                       name="nome"
                       required
-                      placeholder="Digite o nome do hamburguer"
+                      placeholder="Digite seu pedido.."
                       id="nome"
                       onChange={(e) => setNomeBurguer(e.target.value)}
                     />
                   </div>
                   <div>
-                    <label htmlFor="descricao">Descricao </label>
+                    <label htmlFor="descricao">Descriçao </label>
                     <input
                       type="text"
                       required
                       name="descricao"
-                      placeholder="Digite os ingredientes"
+                      placeholder="Digite seus ingredientes..."
                       id="descricao"
                       onChange={(e) => setDescricaoBurguer(e.target.value)}
                     />
@@ -102,7 +101,7 @@ export default function ListItems({nome, descricao, preco, id}){
                       type="number"
                       required
                       name="preco"
-                      placeholder="Digite o preço"
+                      placeholder="Digite seu preço.."
                       id="preco"
                       onChange={(e) => setPrecoBurguer(e.target.value)}
                     />
@@ -110,7 +109,7 @@ export default function ListItems({nome, descricao, preco, id}){
                 </form>
               </div>
               <div className="botoes">
-                <button onClick={updateBurguer}>Editar hambúrguer</button>
+                <button onClick={updateBurguer}>Editar pedido.</button>
                 <button className="button-close" onClick={closeModal}>Fechar{" "}</button>
               </div>
             </div>
