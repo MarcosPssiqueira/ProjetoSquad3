@@ -17,7 +17,7 @@ export default function ModalButton() {
 
   return (
     <div className="container-modal">
-      <button onClick={openModal}>Mais informações </button>
+      <button onClick={openModal}>Mais informações: </button>
       <Modal
         isOpen={modalAberto}
         onRequestClose={closeModal}
@@ -26,7 +26,7 @@ export default function ModalButton() {
         className="modal-content"
       >
 
-        <button onClick={closeModal}>Fechar </button>
+        <button onClick={closeModal}>Fechar. </button>
       </Modal>
     </div>
   );
