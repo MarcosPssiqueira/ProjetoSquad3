@@ -7,7 +7,7 @@
 <h3 align="center">Criado por Kauane Cardoso, Marcos Paulo, Thiago Jaime, Beatrice Macruz e João Guilherme. </h3>
 
 
-Este projeto tem como objetivo consumir uma Fake API criada por um dos membros do SQUAD e utilizar 4 métodos HTTP (GET, POST, PUT, DELETE). A ideia do site é ter a experiência de um ADM, tendo todos os direitos liberados para manutenção da página e não exatamente uma página voltada para o cliente.
+Este projeto tem como objetivo consumir uma Fake API criada por um dos membros do SQUAD e utilizar 4 métodos HTTP (GET, POST, PUT, DELETE). A ideia do site é ter a experiência de um ADM, tendo todos os direitos liberados para manutenção da página e não exatamente uma página voltada para o cliente. SITE PUBLICADO NO VERCEL - https://projgrup3-jguilheerm.vercel.app/
 
 
 # Para executar o projeto siga os passos:
