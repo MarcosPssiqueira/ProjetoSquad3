@@ -13,7 +13,7 @@ const PecaDelivery = () => {
   const [descricao, setDescricao] = useState()
 
 
-  // Novo Hamburguer
+  // Novo Produto
   const createPost = async (e) => {
     e.preventDefault();
 
@@ -28,7 +28,7 @@ const PecaDelivery = () => {
   return (
     <div className='wrapper-cadastro'>
       <div className='container-cadastro'>
-        <h2>FAÇA SEU PEDIO</h2>
+        <h2>FAÇA SEU PEDIDO</h2>
         <form onSubmit={(e) => createPost(e)}>
           <div>
             <label htmlFor="nome"> Produto:</label>
