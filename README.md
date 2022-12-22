@@ -10,21 +10,21 @@
 Este projeto tem como objetivo consumir uma Fake API criada por um dos membros do SQUAD e utilizar 4 métodos HTTP (GET, POST, PUT, DELETE). A ideia do site é ter a experiência de um ADM, tendo todos os direitos liberados para manutenção da página e não exatamente uma página voltada para o cliente. SITE PUBLICADO NO VERCEL - https://projgrup3-jguilheerm.vercel.app/
 
 
-# Para executar o projeto siga os passos :
+# Para executar o projeto siga os passos:
 
 
-## 👉  Clonar o repositório na sua máquina :
+## 👉  Clonar o repositório na sua máquina:
 
 ```sh
 $ git clone https://github.com/MarcosPssiqueira/ProjetoSquad3.git
 ```
-## 👉 Dentro da pasta do projeto, instalar dependências :
+## 👉 Dentro da pasta do projeto, instalar dependências:
 
 ```sh
 $ npm install
 $ npm install react-modal
 ```
-## 👉 Executar o projeto :
+## 👉 Executar o projeto:
 
 ```sh
 $ npm run dev
